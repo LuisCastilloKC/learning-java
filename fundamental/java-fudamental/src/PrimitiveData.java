@@ -27,7 +27,7 @@ INTEGER TYPES
     example: long nationalDebt = 19100000000000L;
 */
 
-    public static void main(String[] args) {
+    public static void integer(String[] args) {
 
         byte smallNumber = 1;
         short shortNumber = -8;
@@ -40,5 +40,32 @@ INTEGER TYPES
         System.out.println(largeNumber);
     }
 
+
+
+/* 
+  
+FLOATING POINT TYPES
+ - Implement of IEEE 754 floating point standards
+ - floating point value store fractional portion
+ - Support positive, negative, and zer values
+
+
+ - float 32 bits small positive value 1.4x10^-45 max value 3.4x10^38 literal format 0.0f
+    example: float milesInAMarathon = 26.2f;
+
+ - double 64 bits 4.9x10^-324 max value 1.7x10^308 literal format 0.0 or 0.0d
+    example: double atomWidthInMetters = 0.000000000001d;
+*/
+
+
+public static void floating(String[] args) {
+ 
+    float miles = 56.1f ;
+    double meters = 0.000005d;
+
+ System.out.println(miles);
+ System.out.println(meters);
+
 }
 
+}
